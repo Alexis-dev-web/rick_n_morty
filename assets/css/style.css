@@ -1,0 +1,53 @@
+body {
+    background: #2A2929;
+}
+
+.rm-mb-name {
+    margin-bottom: -.1rem !important;
+}
+
+.rm-type-text {
+    font-size: 1.2rem;
+}
+
+.status-unknown {
+    height: 0.5rem;
+    width: 0.5rem;
+    margin-right: 0.375rem;
+    background: rgb(158, 158, 158);
+    border-radius: 50%;
+}
+
+.status-alive {
+    height: 0.5rem;
+    width: 0.5rem;
+    margin-right: 0.375rem;
+    background: #63E318;
+    border-radius: 50%;
+}
+
+.status-dead {
+    height: 0.5rem;
+    width: 0.5rem;
+    margin-right: 0.375rem;
+    background:#F23C02;
+    border-radius: 50%;
+}
+
+.color-svg {
+    fill: aqua;
+}
+
+.text-color-button {
+    color: #ffffff;
+}
+
+.text-color-button:hover {
+    color: #17A2B8;
+}
+
+@media screen and (min-width:760px){
+    .rm-character-border {
+        border-right: 1px solid #ffffff !important;
+    }
+}
